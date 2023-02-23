@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.pie-de-pagina{
+    border: solid 1px black;
+    height: 355px;
+    color: white;
+    background-color: black;
+}
+
+.marca{
+    background-color: black;
+    height: 50px;
+    text-align: center;
+}
+
+.enlaces{
+    height: 200px;
+}
+
+.enlaces ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.enlaces ul li{
+    padding: 2px 0px;
+}
+.enlaces a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.enlaces a:hover{
+    color: red;
+}
+
+.contenedor-columnas{
+    width: 90%;
+    height: 100%;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enlaces-1, .enlaces-2, .enlaces-3, .enlaces-4{
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}
+
+.formas-pago{
+    height: 70px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.copyright{
+    height: 30px;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.copyright span{
+    color: red;
+}
+
+
